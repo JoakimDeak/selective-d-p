@@ -1,7 +1,6 @@
-# Selective-d-p
+# Selective d&p
 
-Firefox extension that disables Protanopia & Deuteranopia theme for select elements,
-get it [here](https://addons.mozilla.org/en-US/firefox/addon/dm-drawer-be-gone/)
+Extension that disables Protanopia & Deuteranopia theme for select elements,
+get it for firefox [here](https://addons.mozilla.org/en-US/firefox/addon/selective-d-p/)
 
-## todo
-- fix color of PR icon under recent activity on dashboard
+Also works for chrome and opera
