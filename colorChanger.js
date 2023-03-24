@@ -5,7 +5,9 @@ const observer = new MutationObserver(changeColor);
 observer.observe(target, config);
 
 function changeColor() {
-  const elementMatches = document.querySelectorAll('[title="Status: Open"]');
+  const elementMatches = document.querySelectorAll(
+    '[title="Status: Open"], [class*="color-bg-open-emphasis"]'
+  );
   elementMatches.forEach((match) =>
     match.setAttribute("style", "background-color:rgb(35, 134, 53) !important")
   );
